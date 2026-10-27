@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scar-related VT: Entrainment and Mapping Teaching Workbench</title>
+<style>
+:root{color-scheme:light;--ink:#172033;--muted:#586579;--line:#d5dce6;--bg:#f3f6fa;--panel:#fff;--blue:#2457a7;--blue2:#eaf2ff;--green:#19734a;--greenbg:#e8f6ee;--amber:#8b5a00;--amberbg:#fff4d7;--red:#a72b35;--redbg:#fdebed;--slate:#e9edf3}
+*{box-sizing:border-box}body{margin:0;padding:20px;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:1440px;margin:auto}header{margin-bottom:18px}h1{font-size:clamp(1.5rem,2.5vw,2.1rem);line-height:1.15;margin:0 0 8px;letter-spacing:-.025em}h2{font-size:1.08rem;margin:0 0 12px}h3{font-size:.95rem;margin:0 0 6px}.sub{color:var(--muted);max-width:950px;margin:0}.notice{margin-top:12px;padding:10px 12px;border:1px solid #e2c77b;background:#fff9e8;border-radius:9px;color:#614900}.layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(360px,.95fr);gap:16px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px;box-shadow:0 2px 8px #17203308;min-width:0}.panel+.panel{margin-top:16px}.panel-head{display:flex;gap:10px;align-items:baseline;justify-content:space-between}.hint{font-size:.76rem;color:var(--muted);font-weight:500}.circuit{width:100%;height:auto;display:block;background:#f8fafc;border:1px solid var(--line);border-radius:9px}.site{cursor:pointer;outline:none}.site:focus circle,.site.selected circle{stroke:#f59e0b;stroke-width:4}.site:hover{filter:drop-shadow(0 0 4px #2457a766)}.legend{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 0;font-size:.76rem;color:var(--muted)}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}.trace-wrap{margin-top:12px;background:#08111d;border-radius:9px;padding:8px;border:1px solid #29364a}.trace-head{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#dce7f4;font-size:.76rem;padding:0 3px 5px}.trace{display:block;width:100%;height:auto}.trace-note{font-size:.74rem;color:#c1cddd;margin:5px 3px 0}.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.control{border:1px solid var(--line);background:#fbfcfe;border-radius:9px;padding:11px;min-width:0}.control label{display:block;font-weight:700;font-size:.82rem;margin-bottom:4px}.control p{font-size:.74rem;color:var(--muted);margin:0 0 8px}.value{font-weight:800;color:var(--blue);float:right;font-variant-numeric:tabular-nums}input[type=range],select{width:100%;accent-color:var(--blue)}select{padding:7px;border:1px solid #bcc7d6;border-radius:6px;background:#fff;color:var(--ink);font:inherit;font-size:.82rem}input[type=range]{cursor:pointer}.actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.btn{border:1px solid #b9c7dc;background:#fff;color:var(--ink);border-radius:7px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer}.btn.primary{background:var(--blue);border-color:var(--blue);color:white}.btn:hover{filter:brightness(.97)}.casebox{border:1px solid #b9d0f3;background:var(--blue2);border-radius:9px;padding:12px;margin-bottom:12px}.casebox p{margin:4px 0 0;color:#35537e;font-size:.8rem}.statusline{font-size:.82rem;color:var(--muted);margin:10px 0 0}.findings{display:grid;gap:8px}.finding{padding:10px 11px;border-radius:8px;border:1px solid var(--line);display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px;align-items:start}.finding .tag{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.035em}.finding p{margin:0;font-size:.82rem}.finding.support{background:var(--greenbg);border-color:#b6dfc7}.finding.support .tag{color:var(--green)}.finding.caution{background:var(--amberbg);border-color:#e9d39b}.finding.caution .tag{color:var(--amber)}.finding.neutral{background:#f4f6f9}.finding.neutral .tag{color:#526176}.interpretation{margin-top:12px;padding:12px;border-radius:9px;background:#f5f8fc;border:1px solid var(--line)}.interpretation strong{display:block;margin-bottom:4px}.interpretation p{margin:0;font-size:.85rem}.small{font-size:.77rem;color:var(--muted)}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.8rem}th,td{text-align:left;padding:9px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#f1f4f8;font-weight:800}details{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}summary{font-weight:750;cursor:pointer}.footer{margin-top:16px;color:var(--muted);font-size:.76rem}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:950px){.layout{grid-template-columns:1fr}}@media(max-width:560px){body{padding:10px}.panel{padding:12px}.controls{grid-template-columns:1fr}.finding{grid-template-columns:1fr;gap:3px}.panel-head{display:block}.hint{display:block;margin-top:2px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body><main class="wrap">
+<header>
+<h1>Scar-related VT: Entrainment & Mapping Workbench</h1>
+<p class="sub">An interactive teaching aid for EP fellows to explore how entrainment responses, stimulus-to-QRS timing, local electrograms, fusion and pacing conditions contribute to mapping a scar-related re-entry circuit.</p>
+<div class="notice"><strong>Educational model, not a diagnostic calculator.</strong> The schematic and traces are illustrative. This tool does not calculate validated probabilities or replace integrated interpretation of entrainment, activation mapping, capture and clinical context.</div>
+</header>
+<div class="layout">
+<section>
+<div class="panel">
+<div class="panel-head"><h2>1. Conceptual re-entry substrate</h2><span class="hint">Select a site to load an illustrative profile</span></div>
+<svg id="circuit" class="circuit" viewBox="0 0 760 390" role="img" aria-label="Conceptual scar-related re-entry circuit with entrance, central isthmus, exit, inner bystander and outer pathway">
+<defs><linearGradient id="myo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f7ed"/><stop offset="1" stop-color="#c4e8d0"/></linearGradient><linearGradient id="scar" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9aa8ba"/><stop offset="1" stop-color="#526176"/></linearGradient><marker id="arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#2463bd"/></marker></defs>
+<path d="M80 45 C20 115 45 270 130 337 C220 405 410 380 540 335 C660 292 710 190 650 95 C600 20 480 25 370 40 C260 55 170 15 80 45Z" fill="url(#myo)" stroke="#39945b" stroke-width="2"/>
+<text x="22" y="22" font-size="12" fill="#236a3c" font-weight="700">Viable myocardium / outer pathway</text>
+<path d="M225 100 C285 62 415 75 485 118 C540 157 565 240 515 292 C460 345 340 352 268 313 C198 274 178 157 225 100Z" fill="url(#scar)" stroke="#435168" stroke-width="2"/>
+<text x="375" y="96" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">Scar / heterogeneous border zone</text>
+<path d="M202 200 C260 195 290 215 325 235 C355 255 390 265 425 250 C465 235 490 210 540 195" fill="none" stroke="#f6c9c9" stroke-width="19" stroke-linecap="round"/>
+<path d="M202 200 C260 195 290 215 325 235 C355 255 390 265 425 250 C465 235 490 210 540 195" fill="none" stroke="#c83e49" stroke-width="9" stroke-linecap="round"/>
+<text x="372" y="222" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">Protected slow-conduction channel</text>
+<path id="wave" d="M202 200 C260 195 290 215 325 235 C355 255 390 265 425 250 C465 235 490 210 540 195" fill="none" stroke="#2463bd" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arr)"/>
+<g class="site" id="site-entrance" tabindex="0" role="button" aria-label="Select entrance site" transform="translate(202 200)"><circle r="14" fill="#2457a7" stroke="white" stroke-width="2"/><text y="4" text-anchor="middle" font-size="8" fill="white" font-weight="800">ENT</text></g>
+<g class="site" id="site-early" tabindex="0" role="button" aria-label="Select early channel site" transform="translate(270 208)"><circle r="13" fill="#2457a7" stroke="white" stroke-width="2"/><text y="3" text-anchor="middle" font-size="7" fill="white" font-weight="800">EARLY</text></g>
+<g class="site selected" id="site-mid" tabindex="0" role="button" aria-label="Select central isthmus site" transform="translate(370 255)"><circle r="14" fill="#c83e49" stroke="white" stroke-width="2"/><text y="4" text-anchor="middle" font-size="8" fill="white" font-weight="800">MID</text></g>
+<g class="site" id="site-late" tabindex="0" role="button" aria-label="Select late channel site" transform="translate(455 235)"><circle r="13" fill="#2457a7" stroke="white" stroke-width="2"/><text y="3" text-anchor="middle" font-size="7" fill="white" font-weight="800">LATE</text></g>
+<g class="site" id="site-exit" tabindex="0" role="button" aria-label="Select exit site" transform="translate(540 195)"><circle r="14" fill="#19734a" stroke="white" stroke-width="2"/><text y="4" text-anchor="middle" font-size="8" fill="white" font-weight="800">EXIT</text></g>
+<g class="site" id="site-inner" tabindex="0" role="button" aria-label="Select inner bystander site" transform="translate(345 160)"><circle r="13" fill="#b87913" stroke="white" stroke-width="2"/><text y="3" text-anchor="middle" font-size="7" fill="white" font-weight="800">IB</text></g>
+<g class="site" id="site-outer" tabindex="0" role="button" aria-label="Select outer pathway site" transform="translate(640 225)"><circle r="13" fill="#6b4acb" stroke="white" stroke-width="2"/><text y="3" text-anchor="middle" font-size="7" fill="white" font-weight="800">OUT</text></g>
+<text x="375" y="374" text-anchor="middle" font-size="11" fill="#526176">Conceptual topology only — not patient-specific anatomy or a to-scale map</text>
+</svg>
+<div class="legend"><span><i class="dot" style="background:#c83e49"></i>Slow-conduction channel</span><span><i class="dot" style="background:#19734a"></i>Exit region</span><span><i class="dot" style="background:#b87913"></i>Potential bystander</span><span><i class="dot" style="background:#6b4acb"></i>Outer pathway</span></div>
+<div class="trace-wrap"><div class="trace-head"><strong>Illustrative electrogram timing</strong><span id="traceMode">Central isthmus profile</span></div><canvas id="trace" class="trace" width="900" height="350" aria-label="Illustrative local electrograms and surface ECG"></canvas><p class="trace-note">Synthetic teaching traces only; morphology and timing are schematic, not recorded clinical signals. Red vertical line marks surface QRS onset.</p></div>
+</div>
+<div class="panel">
+<h2>How to read this model</h2>
+<div class="table-wrap"><table><thead><tr><th>Observation</th><th>What it may support</th><th>What it does not prove alone</th></tr></thead><tbody>
+<tr><td>Short PPI–VTCL</td><td>Proximity to the circuit, if entrainment and capture are valid</td><td>That the site is an obligatory part of the circuit</td></tr>
+<tr><td>Stimulus-to-QRS timing</td><td>Potential location along a protected channel, interpreted with local activation and pacing conditions</td><td>A universal entrance/mid/exit classification by a single percentage threshold</td></tr>
+<tr><td>Concealed or manifest fusion</td><td>How paced activation interacts with the tachycardia wavefront</td><td>Definitive circuit participation without considering capture and other entrainment criteria</td></tr>
+<tr><td>Local electrogram timing</td><td>Activation sequence and potential relationship to QRS</td><td>That a fractionated or late potential is necessarily critical to the circuit</td></tr>
+</tbody></table></div>
+</div>
+</section>
+<section>
+<div class="panel">
+<h2>2. Pacing and observation controls</h2>
+<div class="casebox"><strong id="caseTitle">Exploration mode — central isthmus</strong><p id="caseDescription">Change one variable at a time. Interpret the pattern rather than treating any single measurement as definitive.</p></div>
+<div class="controls">
+<div class="control"><label for="vtcl">VT cycle length <span class="value" id="vtclVal">400 ms</span></label><p>Reference tachycardia cycle length.</p><input id="vtcl" type="range" min="280" max="600" step="10" value="400"></div>
+<div class="control"><label for="pclDelta">Pacing cycle length shorter than VTCL <span class="value" id="pclVal">20 ms</span></label><p>Model the degree of overdrive pacing.</p><input id="pclDelta" type="range" min="10" max="50" step="5" value="20"></div>
+<div class="control"><label for="ppiDelta">PPI − VTCL <span class="value" id="ppiVal">15 ms</span></label><p>Use only when post-pacing interval is interpretable after valid entrainment.</p><input id="ppiDelta" type="range" min="0" max="100" step="5" value="15"></div>
+<div class="control"><label for="sqrs">Stimulus-to-QRS interval <span class="value" id="sqrsVal">120 ms</span></label><p>Absolute latency; do not equate directly with a fixed spatial percentage.</p><input id="sqrs" type="range" min="20" max="240" step="5" value="120"></div>
+<div class="control"><label for="localTiming">Exit EGM before QRS onset <span class="value" id="localVal">−35 ms</span></label><p>Negative values indicate local activation before QRS onset.</p><input id="localTiming" type="range" min="-180" max="-5" step="5" value="-35"></div>
+<div class="control"><label for="fusion">Paced QRS appearance</label><p>Describe the observed morphology during pacing.</p><select id="fusion"><option value="concealed">Concealed fusion / no visible change</option><option value="manifest">Manifest fusion / morphology changes</option><option value="uncertain" selected>Uncertain or not assessed</option></select></div>
+<div class="control"><label for="output">Pacing output</label><p>Consider direct capture of adjacent myocardium.</p><select id="output"><option value="low" selected>Low / near-threshold output</option><option value="high">High output / possible far-field capture</option></select></div>
+<div class="control"><label for="entrainment">Entrainment quality</label><p>Was stable entrainment established?</p><select id="entrainment"><option value="valid" selected>Consistent with valid entrainment</option><option value="uncertain">Uncertain / not established</option><option value="absent">No demonstrated entrainment</option></select></div>
+</div>
+<div class="actions"><button class="btn primary" id="challenge">Generate fellow case</button><button class="btn" id="reveal">Reveal case rationale</button><button class="btn" id="reset">Reset</button></div>
+<p class="statusline" id="challengeStatus" aria-live="polite">No challenge active. Select a site or adjust the controls to explore the findings.</p>
+</div>
+<div class="panel">
+<div class="panel-head"><h2>3. Interpretation panel</h2><span class="hint">Qualitative, rule-transparent feedback</span></div>
+<div id="findings" class="findings" aria-live="polite"></div>
+<div class="interpretation"><strong>Integrated interpretation</strong><p id="summary">The current settings are illustrative. Establish whether entrainment is valid before interpreting PPI–VTCL or fusion. No single feature localizes the critical isthmus with certainty.</p></div>
+<details><summary>Teaching notes: criteria and caveats</summary><ul class="small">
+<li>PPI–VTCL is most useful when entrainment is demonstrated and the tachycardia resumes with interpretable timing. Fusion, capture, pacing site and decremental conduction can affect interpretation.</li>
+<li>Concealed fusion may occur when pacing from within a protected circuit, but is not by itself proof of an obligatory circuit site. Manifest fusion may reflect interaction with the paced wavefront, including direct capture of adjacent tissue.</li>
+<li>Stimulus-to-QRS latency can help characterize a protected channel when interpreted with local electrograms, activation sequence and pacing response. Avoid universal timing cut-offs that ignore anatomy and conduction properties.</li>
+<li>Late potentials and fractionated electrograms are substrate clues, not automatic proof of critical-isthmus participation.</li>
+<li>Clinical mapping requires integration of entrainment responses, activation mapping, pace mapping where appropriate, capture assessment, hemodynamics and the full clinical context.</li>
+</ul></details>
+</div>
+</section>
+</div>
+<p class="footer">For supervised electrophysiology education only. The case generator is a teaching exercise, not a validated assessment instrument. All numerical values and traces are illustrative.</p>
+</main>
+<script>
+(() => {
+'use strict';
+const $ = id => document.getElementById(id);
+const controls = ['vtcl','pclDelta','ppiDelta','sqrs','localTiming','fusion','output','entrainment'];
+const presets = {
+  entrance:{title:'Entrance-region profile',description:'Longer stimulus-to-QRS latency may be compatible with a more proximal channel site, but this is not a universal rule.',values:{vtcl:400,pclDelta:20,ppiDelta:20,sqrs:180,localTiming:-65,fusion:'concealed',output:'low',entrainment:'valid'}},
+  early:{title:'Early-channel profile',description:'Compare local activation timing with stimulus-to-QRS latency; neither measurement independently establishes circuit participation.',values:{vtcl:400,pclDelta:20,ppiDelta:20,sqrs:150,localTiming:-50,fusion:'concealed',output:'low',entrainment:'valid'}},
+  mid:{title:'Central isthmus profile',description:'A short PPI–VTCL with valid entrainment can support proximity, but must be interpreted with the remaining evidence.',values:{vtcl:400,pclDelta:20,ppiDelta:15,sqrs:120,localTiming:-35,fusion:'concealed',output:'low',entrainment:'valid'}},
+  late:{title:'Late-channel profile',description:'A relatively short stimulus-to-QRS interval may be compatible with a more distal site, but thresholds are substrate- and context-dependent.',values:{vtcl:400,pclDelta:20,ppiDelta:15,sqrs:75,localTiming:-15,fusion:'concealed',output:'low',entrainment:'valid'}},
+  exit:{title:'Exit-region profile',description:'An early local electrogram near QRS onset can be compatible with an exit region; corroborate with activation and pacing findings.',values:{vtcl:400,pclDelta:20,ppiDelta:10,sqrs:50,localTiming:-5,fusion:'uncertain',output:'low',entrainment:'valid'}},
+  inner:{title:'Potential inner-bystander profile',description:'A long PPI–VTCL or discordant timing may raise concern for a bystander or decremental pathway, but is not diagnostic alone.',values:{vtcl:400,pclDelta:20,ppiDelta:55,sqrs:130,localTiming:-40,fusion:'concealed',output:'low',entrainment:'valid'}},
+  outer:{title:'Potential outer-pathway profile',description:'Long PPI–VTCL and manifest fusion may be compatible with a site outside the protected channel; confirm capture and entrainment validity.',values:{vtcl:400,pclDelta:20,ppiDelta:65,sqrs:100,localTiming:-10,fusion:'manifest',output:'high',entrainment:'valid'}}
+};
+let selectedSite='mid', challenge=null, challengeRevealed=false;
+function setValues(values){for(const [k,v] of Object.entries(values)) $(k).value=String(v); update();}
+function value(id){return $(id).value;}
+function updateLabels(){ $('vtclVal').textContent=value('vtcl')+' ms'; $('pclVal').textContent=value('pclDelta')+' ms'; $('ppiVal').textContent=value('ppiDelta')+' ms'; $('sqrsVal').textContent=value('sqrs')+' ms'; const n=Number(value('localTiming')); $('localVal').textContent=(n>0?'+':'')+n+' ms'; }
+function finding(kind,label,text){return `<div class="finding ${kind}"><div class="tag">${label}</div><p>${text}</p></div>`;}
+function interpret(){
+ const ppi=Number(value('ppiDelta')), sqrs=Number(value('sqrs')), local=Number(value('localTiming')), pcl=Number(value('pclDelta'));
+ const fusion=value('fusion'), output=value('output'), ent=value('entrainment');
+ const out=[]; let caution=false;
+ if(ent==='valid'){
+   out.push(finding('support','Entrainment','The selected setting assumes entrainment has been established. Confirm constant capture, tachycardia acceleration to the pacing rate, and appropriate resumption before relying on post-pacing measurements.'));
+ }else if(ent==='uncertain'){
+   caution=true; out.push(finding('caution','Validity','Entrainment is uncertain. Treat PPI–VTCL and fusion as provisional until the pacing response and capture are verified.'));
+ }else{
+   caution=true; out.push(finding('caution','Validity','Entrainment has not been demonstrated. PPI–VTCL should not be used here as a circuit-proximity criterion.'));
+ }
+ if(ent==='valid'){
+   if(ppi<=30) out.push(finding('support','PPI–VTCL',`A difference of ${ppi} ms is relatively short and may support proximity to the circuit in the appropriate setting; it does not alone prove that the site is an obligatory part of the circuit.`));
+   else if(ppi<=50) out.push(finding('neutral','PPI–VTCL',`A difference of ${ppi} ms is intermediate. Interpret with pacing site, fusion, capture and potential conduction delay rather than applying a hard diagnostic boundary.`));
+   else out.push(finding('caution','PPI–VTCL',`A difference of ${ppi} ms is relatively long and may indicate distance from the circuit or conduction delay. Consider decrement, bystander tissue and measurement validity.`));
+ }
+ if(output==='high') {caution=true;out.push(finding('caution','Capture','High output may capture adjacent myocardium or a broader tissue volume. Reassess at the lowest effective output and verify local capture before interpreting fusion or stimulus-to-QRS timing.'));}
+ if(fusion==='concealed') out.push(finding(output==='high'?'caution':'neutral','Fusion','No visible QRS morphology change is reported. Concealed fusion can be compatible with pacing within a protected circuit, but is not sufficient by itself to establish critical-isthmus participation.'));
+ else if(fusion==='manifest') out.push(finding(output==='high'?'caution':'neutral','Fusion','Manifest fusion is reported. It may reflect interaction between paced and tachycardia wavefronts; assess whether direct capture of adjacent myocardium explains the morphology.'));
+ else out.push(finding('neutral','Fusion','Fusion is not established. Do not infer circuit participation from morphology until the paced QRS is compared reliably with the tachycardia QRS and capture is assessed.'));
+ const locText=local<0?`The local electrogram precedes QRS onset by ${Math.abs(local)} ms.`:local===0?'The local electrogram is set at QRS onset.':`The local electrogram follows QRS onset by ${local} ms.`;
+ out.push(finding('neutral','Local EGM',`${locText} This describes timing only; a presystolic or fractionated signal is not necessarily part of the critical circuit.`));
+ out.push(finding('neutral','S–QRS',`Stimulus-to-QRS is ${sqrs} ms. Latency can help characterize a protected channel when integrated with local activation, pacing response and anatomy; no universal single cut-off is applied here.`));
+ if(pcl>=35){caution=true;out.push(finding('caution','Pacing rate',`Pacing is ${pcl} ms faster than VTCL. More aggressive overdrive pacing may expose decremental conduction or alter the response; interpret timing in that context.`));}
+ $('findings').innerHTML=out.join('');
+ let summary='Interpret the findings together. Establish capture and valid entrainment first, then weigh PPI–VTCL, fusion, stimulus-to-QRS and local activation sequence. This model cannot identify a critical isthmus from these inputs alone.';
+ if(ent!=='valid') summary='Priority: establish whether entrainment and capture are valid. Until then, PPI–VTCL and fusion should not be treated as reliable evidence of circuit proximity or participation.';
+ else if(ppi<=30 && output==='low' && pcl<=25) summary='The short PPI–VTCL is supportive of proximity if entrainment and capture are valid. It is not proof of an obligatory circuit site; integrate fusion, activation sequence and the full mapping context.';
+ else if(ppi>50) summary='The relatively long PPI–VTCL warrants consideration of a remote site, bystander pathway or conduction delay. Check pacing conditions and decrement before drawing a conclusion.';
+ else if(output==='high') summary='Potential far-field capture is a major confounder. Repeat or interpret pacing at the lowest effective output before assigning meaning to fusion or stimulus-to-QRS timing.';
+ $('summary').textContent=summary;
+}
+function drawTrace(){
+ const c=$('trace'),ctx=c.getContext('2d'); if(!ctx)return;
+ const W=c.width,H=c.height;ctx.clearRect(0,0,W,H);ctx.fillStyle='#08111d';ctx.fillRect(0,0,W,H);
+ const left=178,right=24,plotW=W-left-right;
+ // Surface QRS onset is the fixed reference; the exit-region EGM is immediately before it.
+ const qrsX=left+plotW*.73;
+ const local=Number(value('localTiming')), sqrs=Number(value('sqrs')), ppi=Number(value('ppiDelta'));
+ ctx.strokeStyle='#1c2b3e';ctx.lineWidth=1;
+ for(let x=left;x<W-right;x+=30){ctx.beginPath();ctx.moveTo(x,22);ctx.lineTo(x,H-16);ctx.stroke();}
+ for(let y=35;y<H-8;y+=30){ctx.beginPath();ctx.moveTo(left,y);ctx.lineTo(W-right,y);ctx.stroke();}
+ // The selected local timing controls the short exit-to-QRS interval, but the exit EGM
+ // remains pre-QRS in this VT teaching sequence. Earlier EGMs are ordered anatomically.
+ const exitGapPx=Math.max(12,Math.min(28,Math.abs(local)*0.45));
+ const exitX=qrsX-exitGapPx;
+ const rows=[
+   {name:'Entrance EGM',y:48,x:exitX-180,kind:'fraction',color:'#91b8ff'},
+   {name:'Early isthmus EGM',y:99,x:exitX-135,kind:'fraction',color:'#7dd3fc'},
+   {name:'Mid isthmus EGM',y:150,x:exitX-90,kind:'fraction',color:'#6ee7b7'},
+   {name:'Late isthmus EGM',y:201,x:exitX-45,kind:'fraction',color:'#fcd34d'},
+   {name:'Exit-region EGM',y:252,x:exitX,kind:'sharp',color:'#fb923c'},
+   {name:'Surface ECG (QRS)',y:303,x:qrsX,kind:'qrs',color:'#f8fafc'}
+ ];
+ // Dashed line marks the true onset: the QRS waveform starts at this line, never before it.
+ ctx.strokeStyle='#ef5350';ctx.setLineDash([5,5]);ctx.beginPath();ctx.moveTo(qrsX,20);ctx.lineTo(qrsX,H-18);ctx.stroke();ctx.setLineDash([]);
+ ctx.fillStyle='#ff8585';ctx.font='12px system-ui';ctx.fillText('Surface QRS onset',Math.min(qrsX+7,W-155),15);
+ rows.forEach((r,i)=>{
+   ctx.fillStyle='#d5e0ef';ctx.font='12px system-ui';ctx.fillText(r.name,8,r.y-8);
+   ctx.strokeStyle=r.color;ctx.lineWidth=i===4?2.4:1.8;ctx.beginPath();
+   for(let x=left;x<W-right;x+=1){
+     const t=x-r.x;let y=r.y;
+     if(r.kind==='qrs'){
+       // No pre-onset deflection: QRS begins exactly at qrsX.
+       if(t>=0&&t<18)y-=Math.sin((t/18)*Math.PI/2)*24;
+       else if(t>=18&&t<48)y+=Math.sin(((t-18)/30)*Math.PI)*19;
+       else if(t>=48&&t<82)y-=Math.sin(((t-48)/34)*Math.PI)*5;
+     } else if(r.kind==='sharp'){
+       if(Math.abs(t)<24){y-=Math.exp(-Math.pow(t/3.2,2))*18;y+=Math.exp(-Math.pow((t-7)/5,2))*5;}
+     } else if(Math.abs(t)<28){
+       y+=Math.sin(t*.72)*Math.cos(t*.23)*9*Math.exp(-Math.abs(t)/32);
+       y+=Math.sin(t*1.35)*2.5*Math.exp(-Math.abs(t)/22);
+     }
+     ctx.lineTo(x,y);
+   }
+   ctx.stroke();ctx.fillStyle=r.color;ctx.beginPath();ctx.arc(r.x,r.y-1,3,0,Math.PI*2);ctx.fill();
+ });
+ // Label the activation order directly so it remains clear when viewed on smaller screens.
+ ctx.fillStyle='#8fa5c0';ctx.font='11px system-ui';
+ ctx.fillText(`Activation order: Entrance → Early → Mid → Late → Exit → Surface QRS`,left,H-17);
+ ctx.fillText(`PPI−VTCL: ${ppi} ms  |  S–QRS: ${sqrs} ms  |  Exit EGM precedes QRS`,left,H-3);
+}
+function update(){updateLabels();interpret();drawTrace();}
+function selectSite(id){selectedSite=id;document.querySelectorAll('.site').forEach(n=>n.classList.toggle('selected',n.id==='site-'+id));const p=presets[id]||presets.mid;$('caseTitle').textContent=p.title;$('caseDescription').textContent=p.description;$('traceMode').textContent=p.title;challenge=null;challengeRevealed=false;$('challengeStatus').textContent='Exploration mode. Adjust controls to see how the interpretation changes.';setValues(p.values);}
+document.querySelectorAll('.site').forEach(node=>{const act=()=>selectSite(node.id.replace('site-',''));node.addEventListener('click',act);node.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();act();}})});
+controls.forEach(id=>$(id).addEventListener('input',()=>{challenge=null;challengeRevealed=false;$('challengeStatus').textContent='Exploration mode. Adjust controls to see how the interpretation changes.';update();}));
+$('challenge').addEventListener('click',()=>{const keys=Object.keys(presets);const key=keys[Math.floor(Math.random()*keys.length)];challenge={key,values:{...presets[key].values}};challengeRevealed=false;selectedSite='';document.querySelectorAll('.site').forEach(n=>n.classList.remove('selected'));$('caseTitle').textContent='Fellow challenge — interpret the findings';$('caseDescription').textContent='A profile has been loaded without highlighting a map site. Review the observations, then reveal the intended teaching rationale.';$('traceMode').textContent='Challenge profile';setValues(challenge.values);$('challengeStatus').textContent='Challenge loaded. State your interpretation before revealing the rationale.';});
+$('reveal').addEventListener('click',()=>{if(!challenge){$('challengeStatus').textContent='Generate a fellow case first.';return;}challengeRevealed=true;const p=presets[challenge.key];$('challengeStatus').textContent='Teaching rationale: '+p.title+'. '+p.description;});
+$('reset').addEventListener('click',()=>selectSite('mid'));
+selectSite('mid');
+})();
+</script>
+</body></html>
